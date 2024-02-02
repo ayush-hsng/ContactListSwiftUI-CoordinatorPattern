@@ -11,13 +11,10 @@ struct ContactListView: View {
     @ObservedObject var contactListViewModel: ContactListViewModel
 
     var body: some View {
-        NavigationView {
-            List(contactListViewModel.contacts) { contact in
-                NavigationLink(destination: ContactDetailsView(contact: contact)) {
-                    ContactListRowView(contact: contact)
-                }
+        List(contactListViewModel.contacts) { contact in
+            NavigationLink(destination: ContactDetailsView(contact: contact)) {
+                ContactListRowView(contact: contact)
             }
-            .navigationTitle("Contacts")
         }
     }
 }

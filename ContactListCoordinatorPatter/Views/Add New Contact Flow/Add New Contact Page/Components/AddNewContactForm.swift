@@ -17,7 +17,6 @@ struct AddNewContactForm: View {
     }
 
     var body: some View {
-        
         Form {
             Section(header: Text("Contact Details")) {
                 TextField("Name", text: $name)

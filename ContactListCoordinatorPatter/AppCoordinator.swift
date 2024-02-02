@@ -9,7 +9,6 @@ import Foundation
 import SwiftUI
 
 protocol CoordinatorProtocol {
-//    func start()
 }
 
 enum BottomSheet: String, Hashable, Identifiable {
@@ -20,41 +19,27 @@ enum BottomSheet: String, Hashable, Identifiable {
     }
 }
 
-class AppCoordinator: AddNewContactFlowCoordinatorDelegate, CoordinatorProtocol, ObservableObject {
-    
-    @Published var activeNavigation: HomePageNavigation?
+class AppCoordinator: CoordinatorProtocol, AddNewContactFlowCoordinatorDelegate {
+    var homePageViewModel: HomePageViewModel
     var contactListModel: ContactListViewModel
     
-    @MainActor
-    init(contactListViewModel: ContactListViewModel? = nil) {
+    init(contactListViewModel: ContactListViewModel? = nil) async {
         self.contactListModel = contactListViewModel ?? ContactListViewModel()
+        await self.homePageViewModel = HomePageViewModel(contactListModel: contactListModel)
     }
             
     @ViewBuilder
     func buildHomePage() -> some View {
-        HomePageView(coordinator: self)
-    }
-    
-    @ViewBuilder
-    func buildValidationInfoBottomSheet() -> some View {
-        VStack {
-            Section(header: Text("Contact Name")) {
-                Text("Should be non-empty")
-            }
-            Section(header: Text("Contact Number")) {
-                Text("Should contains only digits")
-                Text("SHould be exactlydigits long")
-            }
-        }
+         HomePageView(viewModel: self.homePageViewModel, navigationCoordinator: self)
     }
     
     @MainActor
-    func pushAddNewContactForm() {
-        self.activeNavigation = .addNewContact
+    func  pushAddNewContactForm() {
+        self.homePageViewModel.activeNavigation = .addNewContact
     }
     
     @MainActor
     func dismissAddNewContactForm() {
-        self.activeNavigation = nil
+        self.homePageViewModel.activeNavigation = nil
     }
 }

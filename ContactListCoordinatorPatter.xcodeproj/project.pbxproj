@@ -11,6 +11,37 @@
 		EB1B8EC92B5F789A00E1600D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1B8EC82B5F789A00E1600D /* ContentView.swift */; };
 		EB1B8ECB2B5F789C00E1600D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1B8ECA2B5F789C00E1600D /* Assets.xcassets */; };
 		EB1B8ECE2B5F789C00E1600D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1B8ECD2B5F789C00E1600D /* Preview Assets.xcassets */; };
+		EB2E0FB82B6ABDFE003A4D1B /* LinearProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E0FB72B6ABDFE003A4D1B /* LinearProgressBar.swift */; };
+		EB2E0FC92B6BA580003A4D1B /* StaticBottomSheetContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E0FC82B6BA580003A4D1B /* StaticBottomSheetContent.swift */; };
+		EB2E0FCB2B6BA593003A4D1B /* AnimatedBottomSheetContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E0FCA2B6BA593003A4D1B /* AnimatedBottomSheetContent.swift */; };
+		EB2E0FCE2B6BA742003A4D1B /* CircularProgessBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E0FCD2B6BA742003A4D1B /* CircularProgessBar.swift */; };
+		EB2E0FDA2B6C9FCD003A4D1B /* LazyStackPinnedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E0FD92B6C9FCD003A4D1B /* LazyStackPinnedView.swift */; };
+		EB2E0FDC2B6CA398003A4D1B /* ListWIthStickyTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E0FDB2B6CA398003A4D1B /* ListWIthStickyTop.swift */; };
+		EB2E0FDE2B6CBE68003A4D1B /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2E0FDD2B6CBE68003A4D1B /* HomePageViewModel.swift */; };
+		EB755F9F2B60B28700ABD621 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB755F9E2B60B28700ABD621 /* ContactViewModel.swift */; };
+		EB755FA12B60B29900ABD621 /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB755FA02B60B29900ABD621 /* ContactListViewModel.swift */; };
+		EB755FA42B60B95900ABD621 /* IDGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB755FA32B60B95900ABD621 /* IDGenerator.swift */; };
+		EB755FA92B60C5D400ABD621 /* AddNewContactForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB755FA82B60C5D400ABD621 /* AddNewContactForm.swift */; };
+		EB755FAB2B60C85D00ABD621 /* ContactListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB755FAA2B60C85D00ABD621 /* ContactListRowView.swift */; };
+		EB755FAF2B60C96F00ABD621 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB755FAE2B60C96F00ABD621 /* ContactListView.swift */; };
+		EB755FB12B60CA6D00ABD621 /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB755FB02B60CA6D00ABD621 /* ContactDetailsView.swift */; };
+		EB755FB32B60CC4B00ABD621 /* CTAButtonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB755FB22B60CC4B00ABD621 /* CTAButtonLabel.swift */; };
+		EB755FB52B60CE9E00ABD621 /* AddNewContactPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB755FB42B60CE9E00ABD621 /* AddNewContactPageView.swift */; };
+		EB755FB72B60CFD000ABD621 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB755FB62B60CFD000ABD621 /* HomePageView.swift */; };
+		EB755FBC2B61376400ABD621 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB755FBB2B61376400ABD621 /* AppCoordinator.swift */; };
+		EB755FC02B621DA200ABD621 /* AddNewContactFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB755FBF2B621DA200ABD621 /* AddNewContactFlowCoordinator.swift */; };
+		EB755FFD2B669DA700ABD621 /* AddNewContactPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB755FFC2B669DA700ABD621 /* AddNewContactPageViewModel.swift */; };
+		EB7560002B674ACC00ABD621 /* BottomSheetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB755FFF2B674ACC00ABD621 /* BottomSheetHelper.swift */; };
+		EB75608E2B6898FD00ABD621 /* DragGestureTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB75608D2B6898FD00ABD621 /* DragGestureTestView.swift */; };
+		EB7560912B68A04000ABD621 /* HalfSheetTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7560902B68A04000ABD621 /* HalfSheetTestView.swift */; };
+		EB7560932B68A08300ABD621 /* ScrollGestureTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7560922B68A08300ABD621 /* ScrollGestureTestView.swift */; };
+		EB7560952B68A13D00ABD621 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7560942B68A13D00ABD621 /* TestView.swift */; };
+		EB7560972B68AB5400ABD621 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7560962B68AB5400ABD621 /* BottomSheetView.swift */; };
+		EB75609B2B68ABEF00ABD621 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB75609A2B68ABEF00ABD621 /* RoundedCorner.swift */; };
+		EB75609D2B693C4100ABD621 /* BottomSheetViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB75609C2B693C4100ABD621 /* BottomSheetViewModifier.swift */; };
+		EB7560A02B69EEA600ABD621 /* ImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB75609F2B69EEA600ABD621 /* ImageComponent.swift */; };
+		EB7560A22B69F0FF00ABD621 /* SimpleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7560A12B69F0FF00ABD621 /* SimpleText.swift */; };
+		EB7560A42B69F2EE00ABD621 /* HousingImageText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7560A32B69F2EE00ABD621 /* HousingImageText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +50,37 @@
 		EB1B8EC82B5F789A00E1600D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB1B8ECA2B5F789C00E1600D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB1B8ECD2B5F789C00E1600D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB2E0FB72B6ABDFE003A4D1B /* LinearProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearProgressBar.swift; sourceTree = "<group>"; };
+		EB2E0FC82B6BA580003A4D1B /* StaticBottomSheetContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticBottomSheetContent.swift; sourceTree = "<group>"; };
+		EB2E0FCA2B6BA593003A4D1B /* AnimatedBottomSheetContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBottomSheetContent.swift; sourceTree = "<group>"; };
+		EB2E0FCD2B6BA742003A4D1B /* CircularProgessBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgessBar.swift; sourceTree = "<group>"; };
+		EB2E0FD92B6C9FCD003A4D1B /* LazyStackPinnedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStackPinnedView.swift; sourceTree = "<group>"; };
+		EB2E0FDB2B6CA398003A4D1B /* ListWIthStickyTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWIthStickyTop.swift; sourceTree = "<group>"; };
+		EB2E0FDD2B6CBE68003A4D1B /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		EB755F9E2B60B28700ABD621 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		EB755FA02B60B29900ABD621 /* ContactListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
+		EB755FA32B60B95900ABD621 /* IDGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDGenerator.swift; sourceTree = "<group>"; };
+		EB755FA82B60C5D400ABD621 /* AddNewContactForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewContactForm.swift; sourceTree = "<group>"; };
+		EB755FAA2B60C85D00ABD621 /* ContactListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListRowView.swift; sourceTree = "<group>"; };
+		EB755FAE2B60C96F00ABD621 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		EB755FB02B60CA6D00ABD621 /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
+		EB755FB22B60CC4B00ABD621 /* CTAButtonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButtonLabel.swift; sourceTree = "<group>"; };
+		EB755FB42B60CE9E00ABD621 /* AddNewContactPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewContactPageView.swift; sourceTree = "<group>"; };
+		EB755FB62B60CFD000ABD621 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		EB755FBB2B61376400ABD621 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		EB755FBF2B621DA200ABD621 /* AddNewContactFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewContactFlowCoordinator.swift; sourceTree = "<group>"; };
+		EB755FFC2B669DA700ABD621 /* AddNewContactPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewContactPageViewModel.swift; sourceTree = "<group>"; };
+		EB755FFF2B674ACC00ABD621 /* BottomSheetHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetHelper.swift; sourceTree = "<group>"; };
+		EB75608D2B6898FD00ABD621 /* DragGestureTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureTestView.swift; sourceTree = "<group>"; };
+		EB7560902B68A04000ABD621 /* HalfSheetTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfSheetTestView.swift; sourceTree = "<group>"; };
+		EB7560922B68A08300ABD621 /* ScrollGestureTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollGestureTestView.swift; sourceTree = "<group>"; };
+		EB7560942B68A13D00ABD621 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		EB7560962B68AB5400ABD621 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		EB75609A2B68ABEF00ABD621 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		EB75609C2B693C4100ABD621 /* BottomSheetViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewModifier.swift; sourceTree = "<group>"; };
+		EB75609F2B69EEA600ABD621 /* ImageComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageComponent.swift; sourceTree = "<group>"; };
+		EB7560A12B69F0FF00ABD621 /* SimpleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleText.swift; sourceTree = "<group>"; };
+		EB7560A32B69F2EE00ABD621 /* HousingImageText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingImageText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +113,13 @@
 		EB1B8EC52B5F789A00E1600D /* ContactListCoordinatorPatter */ = {
 			isa = PBXGroup;
 			children = (
+				EB755FA52B60C5B400ABD621 /* Views */,
+				EB755FA22B60B93D00ABD621 /* Helpers */,
+				EB755F9D2B60B26600ABD621 /* Models */,
 				EB1B8EC62B5F789A00E1600D /* ContactListCoordinatorPatterApp.swift */,
 				EB1B8EC82B5F789A00E1600D /* ContentView.swift */,
 				EB1B8ECA2B5F789C00E1600D /* Assets.xcassets */,
+				EB755FBB2B61376400ABD621 /* AppCoordinator.swift */,
 				EB1B8ECC2B5F789C00E1600D /* Preview Content */,
 			);
 			path = ContactListCoordinatorPatter;
@@ -65,6 +131,145 @@
 				EB1B8ECD2B5F789C00E1600D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB2E0FB62B6ABDE9003A4D1B /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E0FB72B6ABDFE003A4D1B /* LinearProgressBar.swift */,
+				EB2E0FCD2B6BA742003A4D1B /* CircularProgessBar.swift */,
+			);
+			path = ProgressBar;
+			sourceTree = "<group>";
+		};
+		EB2E0FD82B6C9EE5003A4D1B /* Sticky Top View */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E0FD92B6C9FCD003A4D1B /* LazyStackPinnedView.swift */,
+				EB2E0FDB2B6CA398003A4D1B /* ListWIthStickyTop.swift */,
+			);
+			path = "Sticky Top View";
+			sourceTree = "<group>";
+		};
+		EB755F9D2B60B26600ABD621 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB755F9E2B60B28700ABD621 /* ContactViewModel.swift */,
+				EB755FA02B60B29900ABD621 /* ContactListViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB755FA22B60B93D00ABD621 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EB755FA32B60B95900ABD621 /* IDGenerator.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EB755FA52B60C5B400ABD621 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB2E0FD82B6C9EE5003A4D1B /* Sticky Top View */,
+				EB2E0FB62B6ABDE9003A4D1B /* ProgressBar */,
+				EB75609E2B69EE8000ABD621 /* UI By Codium */,
+				EB75608F2B689F3300ABD621 /* Test */,
+				EB755FFE2B674AB200ABD621 /* Bottom Sheet */,
+				EB755FBA2B60D12A00ABD621 /* Reusable Components */,
+				EB755FB92B60D11500ABD621 /* Contact List Flow */,
+				EB755FB82B60D0EE00ABD621 /* Add New Contact Flow */,
+				EB755FB62B60CFD000ABD621 /* HomePageView.swift */,
+				EB2E0FDD2B6CBE68003A4D1B /* HomePageViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EB755FB82B60D0EE00ABD621 /* Add New Contact Flow */ = {
+			isa = PBXGroup;
+			children = (
+				EB755FBD2B621D4F00ABD621 /* Add New Contact Page */,
+				EB755FBF2B621DA200ABD621 /* AddNewContactFlowCoordinator.swift */,
+			);
+			path = "Add New Contact Flow";
+			sourceTree = "<group>";
+		};
+		EB755FB92B60D11500ABD621 /* Contact List Flow */ = {
+			isa = PBXGroup;
+			children = (
+				EB755FAE2B60C96F00ABD621 /* ContactListView.swift */,
+				EB755FB02B60CA6D00ABD621 /* ContactDetailsView.swift */,
+				EB755FAA2B60C85D00ABD621 /* ContactListRowView.swift */,
+			);
+			path = "Contact List Flow";
+			sourceTree = "<group>";
+		};
+		EB755FBA2B60D12A00ABD621 /* Reusable Components */ = {
+			isa = PBXGroup;
+			children = (
+				EB7560992B68ABD400ABD621 /* Shapes */,
+				EB755FB22B60CC4B00ABD621 /* CTAButtonLabel.swift */,
+			);
+			path = "Reusable Components";
+			sourceTree = "<group>";
+		};
+		EB755FBD2B621D4F00ABD621 /* Add New Contact Page */ = {
+			isa = PBXGroup;
+			children = (
+				EB755FBE2B621D5C00ABD621 /* Components */,
+				EB755FB42B60CE9E00ABD621 /* AddNewContactPageView.swift */,
+				EB755FFC2B669DA700ABD621 /* AddNewContactPageViewModel.swift */,
+			);
+			path = "Add New Contact Page";
+			sourceTree = "<group>";
+		};
+		EB755FBE2B621D5C00ABD621 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EB755FA82B60C5D400ABD621 /* AddNewContactForm.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EB755FFE2B674AB200ABD621 /* Bottom Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				EB755FFF2B674ACC00ABD621 /* BottomSheetHelper.swift */,
+				EB7560962B68AB5400ABD621 /* BottomSheetView.swift */,
+				EB75609C2B693C4100ABD621 /* BottomSheetViewModifier.swift */,
+				EB2E0FC82B6BA580003A4D1B /* StaticBottomSheetContent.swift */,
+				EB2E0FCA2B6BA593003A4D1B /* AnimatedBottomSheetContent.swift */,
+			);
+			path = "Bottom Sheet";
+			sourceTree = "<group>";
+		};
+		EB75608F2B689F3300ABD621 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				EB75608D2B6898FD00ABD621 /* DragGestureTestView.swift */,
+				EB7560902B68A04000ABD621 /* HalfSheetTestView.swift */,
+				EB7560922B68A08300ABD621 /* ScrollGestureTestView.swift */,
+				EB7560942B68A13D00ABD621 /* TestView.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		EB7560992B68ABD400ABD621 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				EB75609A2B68ABEF00ABD621 /* RoundedCorner.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		EB75609E2B69EE8000ABD621 /* UI By Codium */ = {
+			isa = PBXGroup;
+			children = (
+				EB75609F2B69EEA600ABD621 /* ImageComponent.swift */,
+				EB7560A12B69F0FF00ABD621 /* SimpleText.swift */,
+				EB7560A32B69F2EE00ABD621 /* HousingImageText.swift */,
+			);
+			path = "UI By Codium";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +342,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB7560A42B69F2EE00ABD621 /* HousingImageText.swift in Sources */,
+				EB7560002B674ACC00ABD621 /* BottomSheetHelper.swift in Sources */,
+				EB2E0FDA2B6C9FCD003A4D1B /* LazyStackPinnedView.swift in Sources */,
+				EB7560A22B69F0FF00ABD621 /* SimpleText.swift in Sources */,
+				EB755FB32B60CC4B00ABD621 /* CTAButtonLabel.swift in Sources */,
+				EB75609D2B693C4100ABD621 /* BottomSheetViewModifier.swift in Sources */,
 				EB1B8EC92B5F789A00E1600D /* ContentView.swift in Sources */,
+				EB755FBC2B61376400ABD621 /* AppCoordinator.swift in Sources */,
+				EB755FB12B60CA6D00ABD621 /* ContactDetailsView.swift in Sources */,
+				EB755FFD2B669DA700ABD621 /* AddNewContactPageViewModel.swift in Sources */,
+				EB7560932B68A08300ABD621 /* ScrollGestureTestView.swift in Sources */,
+				EB2E0FC92B6BA580003A4D1B /* StaticBottomSheetContent.swift in Sources */,
+				EB755FA12B60B29900ABD621 /* ContactListViewModel.swift in Sources */,
+				EB755FA92B60C5D400ABD621 /* AddNewContactForm.swift in Sources */,
+				EB75608E2B6898FD00ABD621 /* DragGestureTestView.swift in Sources */,
+				EB755FC02B621DA200ABD621 /* AddNewContactFlowCoordinator.swift in Sources */,
+				EB7560972B68AB5400ABD621 /* BottomSheetView.swift in Sources */,
+				EB755FAF2B60C96F00ABD621 /* ContactListView.swift in Sources */,
+				EB755FB52B60CE9E00ABD621 /* AddNewContactPageView.swift in Sources */,
+				EB755FA42B60B95900ABD621 /* IDGenerator.swift in Sources */,
+				EB2E0FDC2B6CA398003A4D1B /* ListWIthStickyTop.swift in Sources */,
+				EB7560912B68A04000ABD621 /* HalfSheetTestView.swift in Sources */,
+				EB755F9F2B60B28700ABD621 /* ContactViewModel.swift in Sources */,
+				EB7560952B68A13D00ABD621 /* TestView.swift in Sources */,
+				EB2E0FCE2B6BA742003A4D1B /* CircularProgessBar.swift in Sources */,
 				EB1B8EC72B5F789A00E1600D /* ContactListCoordinatorPatterApp.swift in Sources */,
+				EB755FB72B60CFD000ABD621 /* HomePageView.swift in Sources */,
+				EB2E0FCB2B6BA593003A4D1B /* AnimatedBottomSheetContent.swift in Sources */,
+				EB2E0FB82B6ABDFE003A4D1B /* LinearProgressBar.swift in Sources */,
+				EB7560A02B69EEA600ABD621 /* ImageComponent.swift in Sources */,
+				EB75609B2B68ABEF00ABD621 /* RoundedCorner.swift in Sources */,
+				EB755FAB2B60C85D00ABD621 /* ContactListRowView.swift in Sources */,
+				EB2E0FDE2B6CBE68003A4D1B /* HomePageViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -277,8 +513,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,8 +541,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

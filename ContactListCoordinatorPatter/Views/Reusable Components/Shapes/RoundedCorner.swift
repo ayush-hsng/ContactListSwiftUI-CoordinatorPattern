@@ -7,12 +7,16 @@
 
 import SwiftUI
 
-struct RoundedCorner: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+struct RoundedCorners: Shape {
+    var radius: CGFloat = 16
+    var corners: UIRectCorner = .allCorners
 
-#Preview {
-    RoundedCorner()
+    func path(in rect: CGRect) -> Path {
+        let path = UIBezierPath(
+            roundedRect: rect,
+            byRoundingCorners: corners,
+            cornerRadii: CGSize(width: radius, height: radius)
+        )
+        return Path(path.cgPath)
+    }
 }
